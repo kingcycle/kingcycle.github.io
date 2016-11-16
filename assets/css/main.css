@@ -1865,7 +1865,7 @@
 		position: relative;
 		color: white;
 	}
-	
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -1891,13 +1891,13 @@
 			border: solid 2px rgba(0, 0, 0, 0.7);
 			background-color: rgba(31, 78, 120, 0.8);
 		}
-			
+
 			.icon.style2 span
 			{
 				color: white;
 				font-size: 20px;
 			}
-			
+
 			.icon.style2:before {
 				display: block;
 				width: 1.25em;
@@ -1917,7 +1917,7 @@
 				}
 
 			}
-			
+
 
 	.subt {
 		text-decoration: none;
@@ -1925,7 +1925,7 @@
 		position: relative;
 		color: white;
 	}
-	
+
 		.subt:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -1948,13 +1948,13 @@
 			display: inline-block;
 			padding: 2em;
 		}
-			
+
 			.subt.style2 span
 			{
 				color: black;
 				font-size: 23px;
 			}
-			
+
 			.subt.style2:before {
 				display: block;
 				width: 1.25em;
@@ -1975,9 +1975,9 @@
 				}
 
 			}
-			
 
-			
+
+
 
 /* Image */
 
@@ -2085,8 +2085,8 @@
 				ul.icons li:last-child {
 					padding-right: 0;
 				}
-				
-		
+
+
 		ul.icons2 {
 			cursor: default;
 			list-style: none;
@@ -2110,22 +2110,22 @@
 		{
 			margin-left: 15px;
 		}
-				
+
 		ul.icons2 li a.mmixers
 		{
 			padding-left: 8px;
 		}
-		
+
 		ul.icons2 li a.mordernow
 		{
 			padding-left: 100px;
 		}
-		
+
 		ul.icons2 li a.maboutus
 		{
 			padding-left: 150px;
 		}
-				
+
 		ul.actions {
 			cursor: default;
 			list-style: none;
@@ -2243,37 +2243,41 @@
 			margin-left: 2em;
 		}
 
-		
+
 #process
 	{
 		text-align: center;
 		padding-top: -500px;
 	}
 
-		#process img 
+		#process img
 		{
 			width: 819px;
 			height: 584px;
-			
+
 		}
-		
-		#process p 
+
+		#process p
 		{
 			font-size: 32px;
 			font-weight: 600;
-			color: #363636;
+			color: #1f4e78;
 			padding-top: 40px;
 		}
 
-		
+		#process p a:hover
+		{
+			color: #872223;
+		}
+
 #maincontent
 {
 	text-align: center;
 	display: inline-block;
 }
-		
 
-		
+
+
 /* Table */
 
 	.table-wrapper {
@@ -2562,13 +2566,13 @@
 				color: black;
 				font-weight: 600;
 			}
-			
+
 
 			.thumbnails a:hover {
 				background-color: rgba(255, 255, 255, 0.25);
 				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
 			}
-			
+
 			.thumbnails a.product:hover
 			{
 				background-color: rgba(255, 255, 255, 0.25);
@@ -2611,7 +2615,7 @@
 
 		@media screen and (max-width: 980px) {
 
-				.thumbnails h3 
+				.thumbnails h3
 				{
 					font-size: 1em;
 					color: black;
@@ -2638,7 +2642,7 @@
 						margin-bottom: 0 !important;
 					}
 
-				.thumbnails h3 
+				.thumbnails h3
 				{
 					font-size: 1em;
 					color: black;
@@ -2750,7 +2754,7 @@
 			color: black;
 		}
 
-		#header .avatar 
+		#header .avatar
 		{
 			border-radius: 100%;
 			display: inline-block;
@@ -2782,7 +2786,17 @@
 	font-weight: 600;
 	margin-top: 40px;
 	margin-bottom: 40px;
-}		
+}
+
+	#nav a
+	{
+		color: #1f4e78;
+	}
+
+	#nav a:hover
+	{
+		color: #872223;
+	}
 
 #about
 {
@@ -2791,42 +2805,90 @@
 	font-weight: 600;
 	text-align: center;
 }
-	
+
+	#about h1
+	{
+		color: inherit;
+	}
+
+	#about h3
+	{
+		color: inherit;
+		font-size: 26px;
+		font-weight: lighter;
+	}
+
+	#about h5
+	{
+		color: black;
+		font-size: inherit;
+		font-weight: 580;
+		text-align: justify;
+		margin: 0 auto;
+		width: 40em;
+	}
+
+	#about h6
+	{
+		color: inherit;
+		font-size: inherit;
+		font-weight: 580;
+		text-align: justify;
+		margin: 0 auto;
+		width: 37em;
+	}
+
+	#about img
+	{
+		display: inline-block;
+		width: 250px;
+		height: 250px;
+		padding-left: 10px;
+	}
+
+	 #about .disclaimer
+	{
+		text-align: justify;
+		margin: 0 auto;
+		width: 40em;
+	}
+
+	#about .short
+	{
+		text-align: justify;
+	}
+
+
 	#about .bioleft
 	{
 		margin: -15em 20em 5em 36em;
 		display: inline-block;
 	}
-	
-	#about .left 
+
+	#about .left
 	{
 		margin: 0 40em 0 0;
 		width: 300px;
 		height: 300px;
 		display: inline-block;
 	}
-	
+
 	#about .bioright
 	{
 		text-align: justify;
 		margin: -15em 40em 5em 20em;
 		display: inline-block;
 	}
-	
-	#about .right 
+
+	#about .right
 	{
 		margin: 0 0 0 50em;
 		width: 300px;
 		height: 300px;
 	}
-	
-	#about .disclaimer
-	{
-		margin: -2em 30em 4em 30em;
-		text-align: justify;
-	}
 
-	
+
+
 /* Footer */
 
 	#footer {
