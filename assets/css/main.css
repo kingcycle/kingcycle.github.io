@@ -964,6 +964,7 @@
 
 	@media screen and (max-width: 736px) {
 
+
 		.row > * {
 			padding: 0 0 0 2em;
 		}
@@ -1910,6 +1911,7 @@
 				background-color: rgba(134, 34, 35, 0.85);
 			}
 
+
 			@media screen and (max-width: 736px) {
 
 				.icon.style2:before {
@@ -2228,6 +2230,7 @@
 						}
 
 			}
+
 
 	dl {
 		margin: 0 0 2em 0;
@@ -2623,7 +2626,10 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 480px)
+		{
+
+
 
 			.thumbnails {
 				display: block;
@@ -2778,6 +2784,7 @@
 
 		}
 
+
 #nav
 {
 	text-align: center;
@@ -2911,6 +2918,238 @@
 
 			#footer {
 				padding: 2em 0 2em 0;
+			}
+
+		}
+
+
+/* Version mobile : iPhone 6+ */
+	@media screen and (max-width: 420px)
+			{
+
+						ul.icons
+						{
+							margin-top: -60px;
+						}
+
+						ul.icons li
+						{
+							display: list-item;
+							padding-top: 20px;
+							margin-left: 70px;
+						}
+
+						a.abus
+						{
+							margin-right: 60px;
+						}
+
+						ul.icons2 li
+						{
+							display: none;
+						}
+
+						#header h1
+						{
+							color: inherit;
+							font-size: 28px;
+							font-weight: 600;
+						}
+
+						#footer
+						{
+							font-size: 20px;
+							margin-top: -80px;
+							margin-left: 30px;
+						}
+
+						#process img
+						{
+							width: 360px;
+							height: auto;
+						}
+
+						#about h5
+						{
+							width: 22em;
+						}
+
+						#about h6
+						{
+							width: 18em;
+						}
+
+						#about img
+						{
+							padding-bottom: 20px;
+						}
+
+						#about.disclaimer
+						{
+							width:22em;
+						}
+
+						#nav
+						{
+							font-size: 16px;
+						}
+
+			}
+
+/* Version mobile : iPhone 6 */
+	@media screen and (max-width: 375px)
+	{
+
+		ul.icons
+		{
+			margin-top: -60px;
+		}
+
+		ul.icons li
+		{
+			display: list-item;
+			padding-top: 20px;
+			margin-left: 70px;
+		}
+
+		a.abus
+		{
+			margin-right: 60px;
+		}
+
+		ul.icons2 li
+		{
+			display: none;
+		}
+
+		ul.icons2.del li
+		{
+			width: 0px;
+			height: 0px;
+		}
+
+		#header h1
+		{
+			color: inherit;
+			font-size: 28px;
+			font-weight: 600;
+		}
+
+		#footer
+		{
+			font-size: 20px;
+			margin-top: -80px;
+			margin-left: 30px;
+		}
+
+		#process img
+		{
+			width: 320px;
+			height: auto;
+		}
+
+		#about h5
+		{
+			width: 20em;
+		}
+
+		#about h6
+		{
+			width: 18em;
+		}
+
+		#about.disclaimer
+		{
+			width:20em;
+		}
+
+		#about img
+		{
+			padding-bottom: 20px;
+		}
+
+		#nav
+		{
+			font-size: 16px;
+		}
+
+	}
+
+/* Version mobile : iPhone 5 et iPhone 4 */
+	@media screen and (max-width: 320px)
+		{
+
+			ul.icons
+			{
+				margin-top: -60px;
+			}
+
+			ul.icons li
+			{
+				display: list-item;
+				padding-top: 20px;
+				margin-left: 70px;
+			}
+
+			a.abus
+			{
+				margin-right: 60px;
+			}
+
+			ul.icons2 li
+			{
+				display: none;
+			}
+
+			ul.icons2.del li
+			{
+				width: 0px;
+				height: 0px;
+			}
+
+			#header h1
+			{
+				color: inherit;
+				font-size: 28px;
+				font-weight: 600;
+			}
+
+			#footer
+			{
+				font-size: 20px;
+				margin-top: -80px;
+				margin-left: 30px;
+			}
+
+			#process img
+			{
+				width: 260px;
+				height: auto;
+			}
+
+			#about h5
+			{
+				width: 16em;
+			}
+
+			#about h6
+			{
+				width: 14em;
+			}
+
+			#about.disclaimer
+			{
+				width:16em;
+			}
+
+			#about img
+			{
+				padding-bottom: 20px;
+			}
+
+			#nav
+			{
+				font-size: 13px;
 			}
 
 		}
